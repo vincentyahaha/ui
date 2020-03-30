@@ -1,0 +1,50 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+html,
+body {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 5% auto;
+  max-width: 80%;
+  text-align: center;
+}
+header {
+  display: inline-block;
+
+  font-size: 2rem;
+  text-align: center;
+}
+.heading-light {
+  font-weight: 200;
+}
+
+.heading-bold {
+  display: block;
+  color: #454454;
+  font-weight: 600;
+}
+.heading-mini {
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+}
+
+/* Cards Section */
+.cards {
+  margin-top: 2%;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px; */
+}

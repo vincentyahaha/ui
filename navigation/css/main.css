@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 15px 35px;
+}
+
+header nav a .iconfont {
+  font-size: 24px;
+}
+header nav a.active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+/* Mobile Navigation */
+@media (max-width: 800px) {
+  header nav {
+    display: none;
+  }
+}
